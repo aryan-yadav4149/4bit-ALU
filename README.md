@@ -24,3 +24,5 @@ Ripple carry 4-bit Arithmetic Logic Unit with 8 operations.
 
 ## Waveform
 <img width="1899" height="584" alt="Screenshot 2026-05-22 184644" src="https://github.com/user-attachments/assets/f5189a3d-4956-4e99-a33c-334643122dd5" />
+## License
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
