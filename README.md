@@ -1,2 +1,26 @@
 # 4bit-ALU
 Implementation of 4-bit Arithmetic Logic Unit using structural modeling in Verilog. Features 8 operations controlled by 3-bit select line. Simulated on EDA Playground with waveform analysis.
+# 4-bit ALU using Verilog
+
+Ripple carry 4-bit Arithmetic Logic Unit with 8 operations.
+
+## Operations
+| sel | Operation |
+| --- | --- |
+| 000 | ADD |
+| 001 | SUB |
+| 010 | AND |
+| 011 | OR |
+| 100 | XOR |
+| 101 | NOR |
+| 110 | NAND |
+| 111 | XNOR |
+
+## How to Run
+1. Open EDA Playground
+2. Upload `design.v` and `testbench.v`
+3. Simulator: Icarus Verilog 0.12
+4. Top Module: tb_alu_4bit
+
+## Waveform
+<img width="1899" height="584" alt="Screenshot 2026-05-22 184644" src="https://github.com/user-attachments/assets/f5189a3d-4956-4e99-a33c-334643122dd5" />
